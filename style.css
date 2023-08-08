@@ -76,7 +76,7 @@ body {
     color: #ffffff;
     background-color: #000000;
 }
-.scroll-right-pinned {
+.scroll-right {
     display: flex;
     justify-content: left;
     align-items: center;
@@ -85,8 +85,34 @@ body {
     padding-left: 40px;
 }
 .scroll-right-window {
+    position: relative;
+    overflow: hidden;
     height: 550px;
     width: 550px;
     border-radius: 80px;
     background-color: #ffd796;
+}
+.scroll-right-window > div {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.scroll-right-parallax-i {
+    top: 0px;
+    background-image: url("./assets/bruce.jpg");
+}
+.scroll-right-parallax-ii {
+    background-image: url("./assets/donna.jpg");
+}
+.scroll-right-parallax-iii {
+    background-image: url("./assets/dennis.jpg");
+}
+.scroll-right-parallax-iv {
+    background-image: url("./assets/jessica.jpg");
 }
