@@ -92,7 +92,7 @@ body {
 .spacer {
     height: 800px;
     width: 100%;
-    background-color: #eeeeee;
+    background-color: #ffffff;
 }
 .scroll {
     display: flex;
@@ -116,7 +116,7 @@ body {
     flex-direction: column;
     justify-content: center;
     height: 450px;
-    width: 450px;
+    width: 550px;
     padding: 50px;
 }
 .section-lnk {
@@ -124,6 +124,9 @@ body {
     font-size: 1em;
     color: #000000;
     margin-bottom: 10px;
+}
+.section-lnk:hover {
+    text-decoration: underline;
 }
 .section-title {
     line-height: 1.1em;
