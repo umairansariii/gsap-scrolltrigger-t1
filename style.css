@@ -22,14 +22,14 @@ body {
     top: 20px;
     left: 50%;
     border-radius: 30px;
-    background-color: #ffffff80;
+    background-color: #f1f1f180;
     backdrop-filter: blur(10px);
     transform: translateX(-50%);
     transition: background-color 400ms;
     z-index: 10;
 }
 .header:hover {
-    background-color: #ececec80;
+    background-color: #e0e0e080;
 }
 .header ul {
     display: flex;
@@ -55,7 +55,7 @@ body {
     text-align: center;
     height: 100vh;
     width: 100%;
-    font-size: 34px;
+    font-size: 32px;
 }
 .hero h1 {
     font-size: 3.5em;
@@ -67,6 +67,27 @@ body {
     text-decoration-style: wavy;
     text-decoration-color: #ffa023;
     text-decoration-thickness: 4px;
+}
+.hero-element-i,
+.hero-element-ii {
+    position: absolute;
+    height: 350px;
+    width: 350px;
+    background-position: center;
+    filter: hue-rotate(320deg);
+}
+.hero-element-i {
+    bottom: 0px;
+    right: 200px;
+    background-size: fill;
+    background-image: url("./assets/hemisphere.png");
+}
+.hero-element-ii {
+    top: 100px;
+    left: 270px;
+    background-size: cover;
+    background-image: url("./assets/wavy.png");
+    z-index: -1;
 }
 .spacer {
     height: 800px;
