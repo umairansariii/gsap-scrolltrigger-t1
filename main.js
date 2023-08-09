@@ -7,7 +7,7 @@ ScrollTrigger.create({
 	start: "top top",
 	end: "bottom bottom",
 	pin: ".scroll-right",
-    markers: true,
+    markers: false,
 });
 
 // GSAP: Clipping-mask parallax effect.
